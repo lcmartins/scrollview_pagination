@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="scrollviews" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ccf-H5-0EY">
+                                <rect key="frame" x="0.0" y="417" width="375" height="250"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="rAP-lB-g4i">
+                                <rect key="frame" x="168" y="372" width="39" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="LI8-we-AZx"/>
+                                </constraints>
+                                <color key="pageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91608762741088867" green="0.89261853694915771" blue="0.87335878610610962" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ccf-H5-0EY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EUM-0R-lgD"/>
+                            <constraint firstItem="Ccf-H5-0EY" firstAttribute="top" secondItem="rAP-lB-g4i" secondAttribute="bottom" constant="8" id="PdS-64-NZS"/>
+                            <constraint firstItem="rAP-lB-g4i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PlC-hI-eQG"/>
+                            <constraint firstItem="Ccf-H5-0EY" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ZQ0-Mc-D6G"/>
+                            <constraint firstItem="Ccf-H5-0EY" firstAttribute="centerX" secondItem="rAP-lB-g4i" secondAttribute="centerX" id="dBM-Uf-uh6"/>
+                            <constraint firstItem="Ccf-H5-0EY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="417" id="ebz-gp-iLd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControll" destination="rAP-lB-g4i" id="JgQ-Jh-255"/>
+                        <outlet property="slideScrollView" destination="Ccf-H5-0EY" id="Lrn-4G-Ufa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
