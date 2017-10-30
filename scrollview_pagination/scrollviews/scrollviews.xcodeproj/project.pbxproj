@@ -51,21 +51,6 @@
 		D23EB6F01F758FAD0092AD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D23EB6FD1F7590E00092AD46 /* Feature.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Feature.xib; sourceTree = "<group>"; };
 		D23EB6FF1F7590F40092AD46 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
-		D24277E01FA746CF00A243C1 /* cartoescredicardrelease.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoescredicardrelease.mobileprovision; sourceTree = "<group>"; };
-		D24277E11FA746CF00A243C1 /* cartoeshipercarddevelop.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoeshipercarddevelop.mobileprovision; sourceTree = "<group>"; };
-		D24277E21FA746CF00A243C1 /* cartoeshipercardmock.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoeshipercardmock.mobileprovision; sourceTree = "<group>"; };
-		D24277E31FA746CF00A243C1 /* cartoeshipercardmockwidgetdevelop.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoeshipercardmockwidgetdevelop.mobileprovision; sourceTree = "<group>"; };
-		D24277E41FA746D000A243C1 /* cartoesitaucarddevelopwidget.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoesitaucarddevelopwidget.mobileprovision; sourceTree = "<group>"; };
-		D24277E51FA746D000A243C1 /* cartoeshipercardrelease.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoeshipercardrelease.mobileprovision; sourceTree = "<group>"; };
-		D24277E61FA746D000A243C1 /* cartoescredicarddevelop.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoescredicarddevelop.mobileprovision; sourceTree = "<group>"; };
-		D24277E71FA746D000A243C1 /* cartoeshipercardreleasewidgetdevelop.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoeshipercardreleasewidgetdevelop.mobileprovision; sourceTree = "<group>"; };
-		D24277E81FA746D100A243C1 /* cartoesitaucardmockwidgetdevelop.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoesitaucardmockwidgetdevelop.mobileprovision; sourceTree = "<group>"; };
-		D24277E91FA746D100A243C1 /* cartoesitaucardmock.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoesitaucardmock.mobileprovision; sourceTree = "<group>"; };
-		D24277EA1FA746D100A243C1 /* cartoeshipercarddevelopwidgetdevelop.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoeshipercarddevelopwidgetdevelop.mobileprovision; sourceTree = "<group>"; };
-		D24277EB1FA746D100A243C1 /* cartoesitaucardrelease.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoesitaucardrelease.mobileprovision; sourceTree = "<group>"; };
-		D24277EC1FA746D200A243C1 /* cartoesitaucardreleasewidgetdevelop.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoesitaucardreleasewidgetdevelop.mobileprovision; sourceTree = "<group>"; };
-		D24277ED1FA746D200A243C1 /* cartoesitaucarddevelop.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoesitaucarddevelop.mobileprovision; sourceTree = "<group>"; };
-		D24277EE1FA746D200A243C1 /* cartoescredicardmock.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoescredicardmock.mobileprovision; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,21 +85,6 @@
 				D23EB6E21F758FAD0092AD46 /* scrollviewsTests */,
 				D23EB6ED1F758FAD0092AD46 /* scrollviewsUITests */,
 				D23EB6CC1F758FAD0092AD46 /* Products */,
-				D24277E61FA746D000A243C1 /* cartoescredicarddevelop.mobileprovision */,
-				D24277EE1FA746D200A243C1 /* cartoescredicardmock.mobileprovision */,
-				D24277E01FA746CF00A243C1 /* cartoescredicardrelease.mobileprovision */,
-				D24277E11FA746CF00A243C1 /* cartoeshipercarddevelop.mobileprovision */,
-				D24277EA1FA746D100A243C1 /* cartoeshipercarddevelopwidgetdevelop.mobileprovision */,
-				D24277E21FA746CF00A243C1 /* cartoeshipercardmock.mobileprovision */,
-				D24277E31FA746CF00A243C1 /* cartoeshipercardmockwidgetdevelop.mobileprovision */,
-				D24277E51FA746D000A243C1 /* cartoeshipercardrelease.mobileprovision */,
-				D24277E71FA746D000A243C1 /* cartoeshipercardreleasewidgetdevelop.mobileprovision */,
-				D24277ED1FA746D200A243C1 /* cartoesitaucarddevelop.mobileprovision */,
-				D24277E41FA746D000A243C1 /* cartoesitaucarddevelopwidget.mobileprovision */,
-				D24277E91FA746D100A243C1 /* cartoesitaucardmock.mobileprovision */,
-				D24277E81FA746D100A243C1 /* cartoesitaucardmockwidgetdevelop.mobileprovision */,
-				D24277EB1FA746D100A243C1 /* cartoesitaucardrelease.mobileprovision */,
-				D24277EC1FA746D200A243C1 /* cartoesitaucardreleasewidgetdevelop.mobileprovision */,
 			);
 			sourceTree = "<group>";
 		};
@@ -414,7 +384,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "d9cde87b-b061-41f3-a43d-231765a7bd93";
+				PROVISIONING_PROFILE = "e1988651-eacc-4088-880e-65c269a8591f";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -467,7 +437,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "d9cde87b-b061-41f3-a43d-231765a7bd93";
+				PROVISIONING_PROFILE = "e1988651-eacc-4088-880e-65c269a8591f";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -483,7 +453,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = luciano.scrollviews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ff7215e3-a6c5-4b7b-a05a-6025c664dc44";
+				PROVISIONING_PROFILE = "e1988651-eacc-4088-880e-65c269a8591f";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -498,7 +468,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = luciano.scrollviews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ff7215e3-a6c5-4b7b-a05a-6025c664dc44";
+				PROVISIONING_PROFILE = "e1988651-eacc-4088-880e-65c269a8591f";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
